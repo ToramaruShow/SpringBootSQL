@@ -1,0 +1,11 @@
+ログイン
+    mysql -u web -pweb webapp
+    メモ　パスワード直打ち　--->  -pPASSWORD
+テーブルごと
+    mysqldump -u web -p webapp > C:\USER\sql\dump_webapp.sql
+insertのみ
+    mysqldump -p -u web -t webapp contact > C:\USER\sql\dump_webapp_contact_data.sql
+
+
+メモ　最新
+ mysqldump -u web -p webapp > C:\USER\sql\dump_webapp.sql

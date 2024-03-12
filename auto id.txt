@@ -1,0 +1,1 @@
+ALTER TABLE category auto_increment = 1; AutoIncrementが1から始まるようになる
